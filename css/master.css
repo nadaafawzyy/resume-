@@ -1,0 +1,22 @@
+body{
+  font-family: emily, sans-serif;
+  margin: 20px;
+  padding: 20px;
+}
+.SUMMARY,
+.TECHNICAL-SKILLS,
+.PROJECTS,
+.EXPERIENCE,
+.EDUCATION,
+.COURSES-CERTIFICATIONS,
+.SOFT-SKILLS,
+.LANGUAGES{
+  color: #333;
+  margin-bottom: 10px;
+ 
+}
+h3,
+h1{
+  margin-bottom: 5px;
+  color: #080d7a;
+}
