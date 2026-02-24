@@ -11,12 +11,16 @@ body{
 .COURSES-CERTIFICATIONS,
 .SOFT-SKILLS,
 .LANGUAGES{
-  color: #333;
+  color: #383636;
   margin-bottom: 10px;
  
 }
 h3,
 h1{
   margin-bottom: 5px;
-  color: #080d7a;
+  color: #057391;
+}
+a{
+  color: #991616;
+  text-decoration-line: none;
 }
