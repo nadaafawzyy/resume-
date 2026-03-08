@@ -17,13 +17,12 @@ body{
 h3,
 h1{
   margin-bottom: 5px;
-  color: #057391;
+  color: #375c95;
 }
 a{
-  color: #383636;
+  color: #0c85a6;
   text-decoration-line: none;
 }
 a:hover{
-  text-decoration-line: underline;
-  transform:scale(1.05px) ; -webkit-transform:scale(1.05px) ; -moz-transform:scale(1.05px) ; -ms-transform:scale(1.05px) ; -o-transform:scale(1.05px) ;
+  text-decoration: underline;
 }
