@@ -2,7 +2,8 @@
   --primary-color: #1A56A0;
   --secondary-color: #0D3A7A;
   --third-color: #E8F0FB;
-  --font-color: #383636;
+  --font-color: #747272;
+  --header-color: #000000;
 }
 *{
   box-sizing: border-box;
@@ -11,6 +12,7 @@ body{
   font-family: emily, sans-serif;
   padding: 1rem;
   margin: 1rem;
+  color: var(--font-color);
 }
 header{
   display: grid;
@@ -23,6 +25,13 @@ header{
   gap: 1rem;
   width: 90%;
   margin: auto;
+}
+a{
+  color: var(--third-color);
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
 }
 .contact{
   background-color:var(--secondary-color);
@@ -38,7 +47,6 @@ header{
   text-decoration-line:blink;
 }
 .name{
-  padding: 1rem;
   line-height: 3px;
   margin-left: 2rem;
 }
@@ -46,18 +54,67 @@ header{
   margin-right: 7px;
 }
 .name .ex{
+  font-size: 13px;
+  color:#a4b1c2;
+  font-weight: 100;
+}
+section h3{
+  background-color: var(--third-color);
+  color: var(--primary-color);
+  width: 100%;
+  padding: .4rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+section h3::before{
+  content: "";
+  border-width: 20px 1.2px 14.5px 2px;
+  border-color: var(--primary-color);
+  border-style: solid;
+  position: absolute;
+  left: -6px;
+  top:0;
+}
+.technical-skills li span{
+  color: var(--header-color);
+  font-weight: 700;
+  margin:   .5rem .2rem 0 ;
+  display: inline-block;
+}
+.EXPERIENCE p{
+  color: var(--header-color);
+  font-weight: 800;
+  margin:   .5rem .2rem 0 ;
+  display: inline-block;
+}
+.EXPERIENCE .Company{
+  font-weight: 600;
   font-size: 15px;
-  color: rgb(207, 204, 204);
+  color: var(--primary-color);
+}
+.projects .project-name , .EDUCATION .degree {
+  color: var(--header-color);
+  font-weight: 600;
+  margin:   .5rem .2rem 0 ;
+  display: inline-block;
+}
+.projects .tech-stack , .EDUCATION .collage {
+  color: var(--primary-color);
+  display: inline-block;
+}
+.projects a{
+  color: var(--primary-color);
+}
+.EDUCATION p{
+  margin: 1rem 0 0 2rem ;
+}
+.COURSES a{
+  color: var(--primary-color);
 }
 
-
-
-
-
-a{
-  color: #0c85a6;
-  text-decoration-line: none;
-}
-a:hover{
-  text-decoration: underline;
+.languages span{
+  color: var(--header-color);
+  font-weight: 700;
+  margin:   .5rem .2rem 0 ;
+  display: inline ;
 }
